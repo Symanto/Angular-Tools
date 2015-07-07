@@ -2,6 +2,11 @@
 This package provides a toolset of small helper method that make your JavaScript and Angulat life a bit easier.
 
 ## Intallation
+###Bower
+The easiest way to install the HttpService is by including the bower package to your solution
+```shell
+bower install symanto-angular-tools --save
+```
 
 ## Usage
 We provide the following helper methods for you:
