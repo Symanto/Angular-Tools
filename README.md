@@ -1,5 +1,5 @@
 # Angular-Tools
-This package provides a toolset of small helper method that make your JavaScript and Angulat life a bit easier.
+This package provides a toolset of small helper method that make your JavaScript and Angular life a bit easier.
 
 ## Intallation
 ###Bower
