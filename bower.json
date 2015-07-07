@@ -1,0 +1,24 @@
+{
+  "name": "symanto-angular-tools",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Symanto/Angular-Tools",
+  "authors": [
+    "Robin-Manuel Thiel <robin-manuel.thiel@symanto.net>"
+  ],
+  "main": "Tools.js",
+  "keywords": [
+    "symanto",
+    "angular",
+    "js",
+    "javasript",
+    "tools"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
