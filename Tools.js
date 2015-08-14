@@ -17,6 +17,19 @@ function getElementByName(list, elementName){
     return -1;
 }
 
+/**
+ * Replaced an element in a list by comparing its Id
+ * @param list
+ * @param updatedElement
+ */
+function replaceById (list, updatedElement) {
+    for (var i = 0; i < list.length; i++) {
+        if (list[i].Id == updatedElement.Id) {
+            list[i] = updatedElement;
+        }
+    }
+}
+
 // ----------------------------------------------------------------------------------------------------
 // JavaScript tools
 // ----------------------------------------------------------------------------------------------------
