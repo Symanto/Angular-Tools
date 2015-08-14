@@ -38,7 +38,7 @@ function replaceById (list, updatedElement) {
 function deleteById (list, elementToDeleteId) {
     for (var i = 0; i < list.length; i++) {
         if (list[i].Id == elementToDeleteId) {
-            list.slice(i, 1);
+            list.splice(i, 1);
         }
     }
 }
