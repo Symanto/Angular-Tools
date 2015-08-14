@@ -18,7 +18,7 @@ function getElementByName(list, elementName){
 }
 
 /**
- * Replaced an element in a list by comparing its Id
+ * Replaces an element in a list by comparing its Id
  * @param list
  * @param updatedElement
  */
@@ -26,6 +26,19 @@ function replaceById (list, updatedElement) {
     for (var i = 0; i < list.length; i++) {
         if (list[i].Id == updatedElement.Id) {
             list[i] = updatedElement;
+        }
+    }
+}
+
+/**
+ * Removes an element with a specific Id from the list
+ * @param list
+ * @param elementToDeleteId
+ */
+function deleteById (list, elementToDeleteId) {
+    for (var i = 0; i < list.length; i++) {
+        if (list[i].Id == elementToDeleteId) {
+            list.slice(i, 1);
         }
     }
 }
